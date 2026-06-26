@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакты — психологический центр «Компас»</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="header-top">
+      <a class="logo" href="index.html" aria-label="На главную">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="21" stroke="#4F6F62" stroke-width="2.5"/>
+          <path d="M24 10 L29 24 L24 38 L19 24 Z" fill="#C97B53"/>
+          <circle cx="24" cy="24" r="3" fill="#3A5249"/>
+        </svg>
+        <span class="logo-text">
+          <span class="name">Компас</span>
+          <span class="sub">психологический центр</span>
+        </span>
+      </a>
+      <div class="spheres">
+        <span>Семейная терапия</span>
+        <span>Тревога и депрессия</span>
+        <span>Детская психология</span>
+        <span>Парная терапия</span>
+        <span>Корпоративная психология</span>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="spec1.html">Анна Иванова</a></li>
+        <li><a href="spec2.html">Дмитрий Петров</a></li>
+        <li><a href="spec3.html">Елена Смирнова</a></li>
+        <li><a href="contacts.html" class="active">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <div style="padding-top:40px">
+    <h1 style="font-size:1.7rem">Контакты и как до нас добраться</h1>
+    <p style="color:var(--text-muted);max-width:560px">Будем рады видеть вас очно в центре
+    или встретиться онлайн — выберите удобный формат при записи.</p>
+  </div>
+
+  <div class="contacts-grid">
+
+    <div class="contact-card">
+      <div class="contact-row">
+        <span class="ic">📍</span>
+        <div>
+          <div class="label">Адрес</div>
+          <div class="value">г. Москва, Чистопрудный бульвар, 12, 3 этаж</div>
+        </div>
+      </div>
+      <div class="contact-row">
+        <span class="ic">📞</span>
+        <div>
+          <div class="label">Телефон</div>
+          <div class="value">+7 (495) 123-45-67</div>
+        </div>
+      </div>
+      <div class="contact-row">
+        <span class="ic">✉️</span>
+        <div>
+          <div class="label">Email</div>
+          <div class="value">hello@compass-center.ru</div>
+        </div>
+      </div>
+      <div class="contact-row">
+        <span class="ic">🕒</span>
+        <div>
+          <div class="label">Режим работы</div>
+          <div class="value">Пн–Сб: 9:00–21:00, Вс — выходной</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-card">
+      <iframe
+        src="https://maps.google.com/maps?q=Chistoprudny+Boulevard+12+Moscow&output=embed"
+        loading="lazy"
+        title="Схема проезда до психологического центра «Компас»">
+      </iframe>
+      <ul class="route-list">
+        <li><span>🚇</span> Метро «Чистые пруды» / «Тургеневская» — 5 минут пешком</li>
+        <li><span>🚌</span> Автобус до остановки «Чистопрудный бульвар» — у входа в здание</li>
+        <li><span>🚗</span> Парковка во дворе, въезд со стороны бульвара</li>
+      </ul>
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-contacts">
+      <h4>Контакты</h4>
+      <p>г. Москва, Чистопрудный бул., 12</p>
+      <p>+7 (495) 123-45-67</p>
+      <p>hello@compass-center.ru</p>
+      <p>Пн–Сб: 9:00–21:00</p>
+    </div>
+    <div>
+      <h4>Навигация</h4>
+      <p><a href="index.html">Главная</a></p>
+      <p><a href="contacts.html">Контакты</a></p>
+    </div>
+    <div>
+      <h4>Специалисты</h4>
+      <p><a href="spec1.html">Анна Иванова</a></p>
+      <p><a href="spec2.html">Дмитрий Петров</a></p>
+      <p><a href="spec3.html">Елена Смирнова</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Психологический центр «Компас». Учебный проект.</div>
+</footer>
+
+</body>
+</html>
